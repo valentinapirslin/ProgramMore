@@ -1,0 +1,103 @@
+@charset "utf-8"
+/* CSS document */
+
+:root{
+        --site-color-01: darkblue;
+        --site-color-01: darkcyan;
+}
+
+main{
+	width: 100%;
+	height: calc(100vh - 60px);
+	background-color: royalblue;
+	background-image: url(Robot.png), url(CpuPM.jpg);
+	background-size: 70vh, cover;
+	background-repeat: no-repeat;
+	background-blend-mode: ;
+	background-position: right, left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+}
+
+@font-face{
+	font-family:"MomoTrustDisplay-Regular";
+	src:url("Momo_Trust_Display/MomoTrustDisplay-Regular.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	color: whitesmoke;
+}
+
+h1 {
+	font-size: 26px;
+	line-height: 32px;
+	color: white;
+	font-family: MomoTrustDisplay-Regular;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+	line-height: 18px;
+	color: white;
+	font-family: MomoTrustDisplay-Regular;
+	display: flex;
+}
+
+a {
+	font-size: 14px;
+	line-height: 18px;
+	color: white;
+	font-family: MomoTrustDisplay-Regular;
+	cursor: pointer;
+	display: flex;
+}
+
+
+main .main-intro p{
+	font-size: 20px;
+	line-height: 30px;
+	border-left: 3px solid whitesmoke;
+	padding-left: 15px;
+	display: flex;
+}
+
+main .main-intro p{
+	position: relative;
+	right: 35vh;
+	bottom: 30vh; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main .start {
+	position: relative;
+	right: 90vh;
+	top: 30vh; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main .start a{
+	font-size: 36px;
+	display: block;
+	block-position: center;
+	background-color: darkred;
+	padding: 3vh;
+	border-block: 3px;
+	border-color: whitesmoke;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
